@@ -90,4 +90,4 @@ app.get("/start-bot", (req, res) => {
   connectWS("wss://ws.deriv.com/websockets/v3", res);
 });
 
-app.listen(PORT, () => console.log(`🚀
+app.listen(PORT, () => console.log(`🚀 Backend rodando na porta ${PORT}`));
